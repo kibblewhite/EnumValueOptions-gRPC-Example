@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+package Options.Common;
+option csharp_namespace = "Options.Common";
+
+import "ProfilesEnum.proto";
+
+message Options {
+	ProfilesEnum profile = 1;
+}
