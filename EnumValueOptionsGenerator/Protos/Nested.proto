@@ -8,9 +8,9 @@ import "EnumValueOptions.proto";
 message Nested {
 	// Nested types...
 	enum Type {
-		A = 0 [(enum_name) = "AAA"];
-		B = 1 [(enum_name) = "BBB"]; 
-		C = 2 [(enum_name) = "CCC"];
+		A = 0 [(enum_name) = "Nested-AAA"];
+		B = 1 [(enum_name) = "Nested-BBB"]; 
+		C = 2 [(enum_name) = "Nested-CCC"];
 	};
 	Options.Common.Nested.Type type = 1;
 }

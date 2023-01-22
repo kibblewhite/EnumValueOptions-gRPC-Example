@@ -17,7 +17,7 @@ foreach (ProfilesEnum profile_enum in Enum.GetValues(typeof(ProfilesEnum)))
 }
 
 Console.WriteLine("=========================================");
-Console.WriteLine("Deeply-Nested Object");
+Console.WriteLine("Multi-Level/Nested Object");
 
 // Dealing with deeply nested enumerable values
 
