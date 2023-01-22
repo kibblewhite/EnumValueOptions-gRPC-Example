@@ -16,6 +16,9 @@ foreach (ProfilesEnum profile_enum in Enum.GetValues(typeof(ProfilesEnum)))
     Console.WriteLine(selector_value);
 }
 
+// note: It is in my opinion that maintaining a consistent structure within the *.proto files, specifically by keeping messages and enums separated within distinct classes,
+// can facilitate the ease of maintenance and enhance the readability of the code, and in certain instances, it may also result in improved performance.
+
 Console.WriteLine("=========================================");
 Console.WriteLine("Multi-Level/Nested Object");
 
