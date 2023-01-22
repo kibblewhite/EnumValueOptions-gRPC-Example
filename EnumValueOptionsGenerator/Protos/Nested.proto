@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+package Options.Common;
+option csharp_namespace = "Options.Common";
+
+import "EnumValueOptions.proto";
+
+message Nested {
+	// Nested types...
+	enum Type {
+		A = 0 [(enum_name) = "AAA"];
+		B = 1 [(enum_name) = "BBB"]; 
+		C = 2 [(enum_name) = "CCC"];
+	};
+	Options.Common.Nested.Type type = 1;
+}

@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumValueOptionsApp", "EnumValueOptionsApp\EnumValueOptionsApp.csproj", "{75C7EB2D-71C5-439C-A552-B92706D0A783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumValueOptionsApp", "EnumValueOptionsApp\EnumValueOptionsApp.csproj", "{75C7EB2D-71C5-439C-A552-B92706D0A783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumValueOptionsGenerator", "EnumValueOptionsGenerator\EnumValueOptionsGenerator.csproj", "{A62A1A38-220E-4B60-8B14-BEF96DB93B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumValueOptionsGenerator", "EnumValueOptionsGenerator\EnumValueOptionsGenerator.csproj", "{A62A1A38-220E-4B60-8B14-BEF96DB93B65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFB94ED1-9C15-415C-9668-8F760AE08934}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
